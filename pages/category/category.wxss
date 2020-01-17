@@ -1,0 +1,9 @@
+.leftcontent{
+  background-color: #f3f3f3;
+  height: 100%
+}
+scroll-view{
+  height: 80rpx;
+  line-height: 40rpx;
+  text-align: center
+}

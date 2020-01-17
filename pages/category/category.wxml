@@ -1,0 +1,6 @@
+<view class="left" style="width:182rpx">
+<scroll-view  wx:for="{{categoryleft}}" wx:key="index"  scroll-y="true">
+<view  class="leftcontent" style="font-size:28rpx">{{item.cat_name}}</view>
+</scroll-view>
+
+</view>

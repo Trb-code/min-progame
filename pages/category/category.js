@@ -1,10 +1,12 @@
-// pages/demo/demo.js
+// pages/category/category.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    categoryleft:[]
+
 
   },
 
@@ -12,7 +14,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    // 分类页面数据
+wx:wx.request({
+  url: 'https://api.zbztb.cn/api/public/v1/categories',
+  success: (res)=> {
+     console.log(res),
+     this.setData({
+       categoryleft:res.data.message
+     })
+     
+  }
 
+})
   },
 
   /**
