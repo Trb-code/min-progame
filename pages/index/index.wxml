@@ -1,6 +1,33 @@
-<view class="nav">
-<view class="item" >项目</view>
-<view class="item">文件</view>
-<view class="item">编辑</view>
-<view class="item">工具</view>
+<view>
+  <seachinput />
+</view>
+<!-- 轮播图 -->
+<view>
+  <swiper indicator-dots="true" autoplay="true" circular="true" interval='2000'>
+    <swiper-item wx:for="{{swiper_list}}" wx:key="index">
+      <navigator url="{{item.navigator_url}}" open-type="{{item.open_type}}">
+        <image src="{{item.image_src}}" mode="widthFix"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 导航分类 -->
+<view class="navclassify">
+  <view wx:for="{{navclassify}}" wx:key="index">
+  <navigator url="{{item.navigator_url}}" open-type="{{item.open_type}}">
+    <image src="{{item.image_src}}"></image>
+    </navigator>
+  </view>
+</view>
+<!-- 产品列表 -->
+<view class="fasion">
+<view wx:for="{{fashion}}" wx:key="index">
+<image  style="width:100%;height:59rpx"  src="{{item.floor_title.image_src}}"></image>
+<navigator  wx:for="{{item.product_list}}" wx:key="index">
+<image  src="{{item.image_src}}"></image>
+</navigator>
+</view>
+  
+  
+  
 </view>

@@ -1,0 +1,16 @@
+.seachinput{
+  background-color: #eb4450;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.seach{
+  background-color: #ffffff;
+  width: 700rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}

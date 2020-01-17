@@ -1,9 +1,69 @@
-.nav{
+.seachinput{
+  background-color: #eb4450;
+  width: 100%;
+  height: 100rpx;
   display: flex;
-  background-color: blue;
-  padding: 8px
+  align-items: center;
+  justify-content: center
 }
-.item{
-  flex: 1;
-  text-align: center;
+.seach{
+  background-color: #ffffff;
+  width: 700rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
+swiper{
+  height: 340rpx
+}
+.navclassify{
+  display: flex;
+  padding: 2rpx 31rpx;
+  align-items: center;
+  justify-content: space-between
+}
+.navclassify image{
+  height: 140rpx;
+  width: 128rpx;  
+}
+.headfasion image{
+  width:750rpx;
+  height:59rpx;
+  margin-top: 43rpx;
+  margin-bottom: 10rpx;
+}
+.fasion navigator{
+  float: left;
+  width: 33.33%;
+  
+}
+
+.fasion navigator:nth-child(2) image{
+  height:386rpx;
+  border-left: 10rpx solid #ffffff;
+  border-right:10rpx solid #ffffff;
+  box-sizing:border-box
+}
+.fasion navigator:nth-child(3) image{
+  height:188rpx;
+  /* border-left: 10rpx solid #ffffff */
+}
+.fasion navigator:nth-child(4) image{
+  height:188rpx;
+  border-left: 10rpx solid #ffffff;
+  border-right: 10rpx solid #ffffff;
+   box-sizing:border-box
+}
+.fasion navigator:nth-child(5) image{
+  height:188rpx;
+  /* border-left: 10rpx solid #ffffff */
+}
+.fasion navigator:nth-child(6) image{
+  height:188rpx;
+  border-left: 10rpx solid #ffffff;
+  border-right:10rpx solid #ffffff;
+   box-sizing:border-box
+  }
+
+ 
